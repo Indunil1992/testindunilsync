@@ -1,0 +1,129 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9332c1eb-e689-40c4-a291-0bc4fadabf09": {
+        "id": "9332c1eb-e689-40c4-a291-0bc4fadabf09",
+        "parent": null,
+        "name": "testIndunilSync",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cbf19f75-b978-4de5-bfbb-7d751d10d7c5"
+        ],
+        "isRemovable": false,
+        "filePath": "testIndunilSync"
+      },
+      "cbf19f75-b978-4de5-bfbb-7d751d10d7c5": {
+        "id": "cbf19f75-b978-4de5-bfbb-7d751d10d7c5",
+        "parent": "9332c1eb-e689-40c4-a291-0bc4fadabf09",
+        "name": "lambda.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testIndunilSync/lambda.py",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameqainduany",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "ee617eeb-9749-425b-8e46-70e82fc452f0": {
+            "id": "ee617eeb-9749-425b-8e46-70e82fc452f0",
+            "name": "Test event",
+            "functionId": "cbf19f75-b978-4de5-bfbb-7d751d10d7c5",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "rootNode": "9332c1eb-e689-40c4-a291-0bc4fadabf09",
+    "openFiles": [
+      "cbf19f75-b978-4de5-bfbb-7d751d10d7c5"
+    ],
+    "currentFileId": "cbf19f75-b978-4de5-bfbb-7d751d10d7c5",
+    "resources": {
+      "apigusEast1sachithraAPInameqainduany": {
+        "name": "apigusEast1sachithraAPInameqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "i81zku",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "cbf19f75-b978-4de5-bfbb-7d751d10d7c5",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/testIndunilSync",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testIndunilSync",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1580883865998
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testindunilsync",
+      "url": "https://github.com/Indunil1992/testindunilsync"
+    }
+  }
+}
